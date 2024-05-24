@@ -1,0 +1,56 @@
+/* .section {
+    border-style: solid;
+    background: #EEEEEE;
+    border-color: #DDDDDD;
+    min-width: 32%;
+    max-height: 20%;
+    margin: 10px;
+    box-sizing: border-box;
+} */
+
+.header {
+    background: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0 20%;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    border-radius: 0;
+}
+
+.portrait {
+    width: max-content;
+    min-width: 20%;
+    max-width: 350px;
+    height: auto;
+}
+
+.name {
+    font-size: 50px;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.bio-info {
+    font-size: 18px;
+    margin-left: 10px;
+    min-width: 500px;
+    width: max-content;
+    max-width: 525px;
+}
+
+.links {
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 15%;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.link-item {
+    font-size: 20px;
+    text-align: center;
+}
